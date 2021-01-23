@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f08c007c-6da9-4c00-acf0-16136cee3f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/for_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,35 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.Test001 in learnHeap_test.go (1)">
+    <configuration name="go build learnHeap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Week_01" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learnHeap.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test001 in learnHeap_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Week_01" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/learnHeap_test.go" />
+      <pattern value="^\QTest001\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test001 in learnHeap_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Week_01" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/learnHeap_test.go" />
+      <pattern value="^\QTest001\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestLS in for_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Week_01" />
       <working_directory value="$PROJECT_DIR$" />
@@ -54,6 +83,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test001 in learnHeap_test.go (1)" />
+        <item itemvalue="Go Test.Test001 in learnHeap_test.go" />
+        <item itemvalue="Go Build.go build learnHeap.go" />
         <item itemvalue="Go Test.TestLS in for_test.go" />
       </list>
     </recent_temporary>
