@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f08c007c-6da9-4c00-acf0-16136cee3f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/for_test.go" afterDir="false" />
+    <list default="true" id="16317b83-2055-4098-baa8-0ad0c0a60b55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Week_01/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/.idea/Week_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/learnHeap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/learnHeap_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +23,12 @@
   </component>
   <component name="GOROOT" url="file://F:/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nMjMmzlFn5a9LMLDz0guGGqMl1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1nV83DlikNTeKNC2QBI5TI0idEI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,52 +47,67 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go" />
   </component>
-  <component name="RunManager" selected="Go Test.Test001 in learnHeap_test.go (1)">
-    <configuration name="go build learnHeap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Week_01" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZERO\Desktop\算法班\homeWork\AlgorithmCHUNZHAO\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test002 in for02_test.go">
+    <configuration name="go build lsss.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnHeap.go" />
+      <filePath value="$PROJECT_DIR$/src/Week_02/lsss.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test001 in learnHeap_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Week_01" />
+    <configuration name="go build mmm.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/mmm.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test001 in t02_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
+      <working_directory value="$PROJECT_DIR$/src/Week_02" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/learnHeap_test.go" />
+      <filePath value="$PROJECT_DIR$/src/Week_02/t02_test.go" />
       <pattern value="^\QTest001\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test001 in learnHeap_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Week_01" />
-      <working_directory value="$PROJECT_DIR$" />
+    <configuration name="Test002 in for02_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
+      <working_directory value="$PROJECT_DIR$/Week_02" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/learnHeap_test.go" />
-      <pattern value="^\QTest001\E$" />
+      <filePath value="$PROJECT_DIR$/Week_02/for02_test.go" />
+      <pattern value="^\QTest002\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLS in for_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Week_01" />
-      <working_directory value="$PROJECT_DIR$" />
+    <configuration name="TestLS in for_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
+      <working_directory value="$PROJECT_DIR$/src/Week_01" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/for_test.go" />
+      <filePath value="$PROJECT_DIR$/src/Week_01/for_test.go" />
       <pattern value="^\QTestLS\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test001 in learnHeap_test.go (1)" />
-        <item itemvalue="Go Test.Test001 in learnHeap_test.go" />
-        <item itemvalue="Go Build.go build learnHeap.go" />
-        <item itemvalue="Go Test.TestLS in for_test.go" />
+        <item itemvalue="Go Test.Test002 in for02_test.go" />
+        <item itemvalue="Go Test.Test001 in t02_test.go" />
+        <item itemvalue="Go Build.go build lsss.go (1)" />
+        <item itemvalue="Go Test.TestLS in for_test.go (1)" />
+        <item itemvalue="Go Build.go build mmm.go" />
       </list>
     </recent_temporary>
   </component>

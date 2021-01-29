@@ -1,14 +1,24 @@
-package Week_01
+package Week_02
 
-import (
-	"container/heap"
-	"testing"
-)
+import "container/heap"
 
-//定义一个数值为int的heap
+func getLeastNumbers(arr []int, k int) []int {
+	res := []int{}
+
+	x := MyHeap(arr)
+	h := (*MyHeap)(nil)
+	h = &x
+	heap.Init(h)
+
+	for i := 0; i < k; i++ {
+		res = append(res, heap.Pop(h).(int))
+	}
+
+	return res
+}
+
 type MyHeap []int
 
-//要使用heap，首先要满足一个指定的接口,你需要定义接口中的方法
 func (h MyHeap) Len() int {
 	return len(h)
 }
@@ -30,16 +40,3 @@ func (h *MyHeap) Pop() interface{} {
 	*h = (*h)[:len(*h)-1]
 	return x
 }
-
-func Test001(t *testing.T) {
-	h := &MyHeap{1,56,98,87,5,98,54,54,51,100}
-	heap.Init(h)
-	heap.Push(h, 129)
-	t.Log(heap.Pop(h))  // 1
-	t.Log(heap.Pop(h))  // 5
-	t.Log(*h)  // [51 54 54 87 56 98 98 129 100]
-	s := math.min
-
-}
-
-
