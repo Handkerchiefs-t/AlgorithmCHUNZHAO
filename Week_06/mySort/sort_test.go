@@ -2,35 +2,37 @@ package mySort
 
 import (
 	"container/heap"
+	"fmt"
+	"reflect"
 	"testing"
 )
 
 //快排
-func quickSort(arr []int, begin, end int, useTimer *bool) {
-
+func quickSort(arr []int, begin, end int) {
 	if begin >= end {
 		return
 	}
-	p := moveAndGetPivot(arr, begin, end)
-	quickSort(arr, begin, p, useTimer)
-	quickSort(arr, p+1, end, useTimer)
+
+	pivotIndex := moveAndGetPivot(arr, begin, end)
+	quickSort(arr, begin, pivotIndex)
+	quickSort(arr, pivotIndex+1, end)
 }
 
 func moveAndGetPivot(arr []int, begin, end int) int {
-	quick := begin + 1
-	slow := begin + 1
+	fast := begin+1
+	slow := begin
 	pivot := arr[begin]
 
-	for ; quick < end; quick++ {
-		if arr[quick] < pivot {
-			arr[quick], arr[slow] = arr[slow], arr[quick]
+	for ; fast < end; fast++ {
+		if arr[fast] <= pivot {
 			slow++
+			arr[slow], arr[fast] = arr[fast], arr[slow]
 		}
 	}
 
-	arr[slow-1], arr[begin] = arr[begin], arr[slow-1]
+	arr[begin], arr[slow] = arr[slow], arr[begin]
 
-	return slow-1
+	return slow
 }
 
 
@@ -40,6 +42,7 @@ func mergeSort(arr []int, begin, end int) {
 	if begin >= end {
 		return
 	}
+
 	mid := (begin + end) >> 1
 	mergeSort(arr, begin, mid)
 	mergeSort(arr, mid+1, end)
@@ -47,11 +50,11 @@ func mergeSort(arr []int, begin, end int) {
 }
 
 func merge(arr []int, begin, mid, end int) {
-	tmp := make([]int, 0, end-begin)
 	i := begin
-	j := mid
+	j := mid+1
+	tmp := make([]int, 0, end-begin+1)
 
-	for i < mid && j < end {
+	for i <= mid && j <= end {
 		if arr[i] < arr[j] {
 			tmp = append(tmp, arr[i])
 			i++
@@ -61,19 +64,24 @@ func merge(arr []int, begin, mid, end int) {
 		}
 	}
 
-	for i < mid {
+	for i <= mid {
 		tmp = append(tmp, arr[i])
 		i++
 	}
 
-	for j < end {
+	for j <= end {
 		tmp = append(tmp, arr[j])
 		j++
 	}
 
-	for i, v := range tmp {
-		arr[begin+i] = v
+	fmt.Println(tmp, len(tmp), cap(tmp))
+	i = begin
+	for _, v := range tmp {
+		fmt.Println(arr, i, begin, mid, end)
+		arr[i] = v
+		i++
 	}
+
 }
 
 
@@ -118,10 +126,12 @@ func (h *heapType) Pop() interface{} {
 
 
 func Test00001(t *testing.T) {
-	x := []int{1,0,6,0,7,0}
-	heapSort(x)
-	//mergeSort(x, 0, len(x))
+	x := []int{1,3,2,3,1}
+	//heapSort(x)
+	//mergeSort(x, 0, len(x)-1)
 	//c := true
-	//quickSort(x, 0, len(x), &c)
+	quickSort(x, 0, len(x))
 	t.Log(x)
+
+	reflect.Copy()
 }

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="16317b83-2055-4098-baa8-0ad0c0a60b55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_05/just_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/mySort/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/mySort/sort_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +45,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ZERO\Desktop\算法班\homeWork\AlgorithmCHUNZHAO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test00001 in sort_test.go (1)">
+  <component name="RunManager" selected="Go Test.TestForMax in for006_test.go (1)">
     <configuration name="Test00001 in sort_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
@@ -70,26 +73,6 @@
       <pattern value="^\QTest00001\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test003 in week3_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmCHUNZHAO" />
-      <working_directory value="$PROJECT_DIR$/Week_03" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Week_03/week3_test.go" />
-      <pattern value="^\QTest003\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test005 in just_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmCHUNZHAO" />
-      <working_directory value="$PROJECT_DIR$/Week_05" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Week_05/just_test.go" />
-      <pattern value="^\QTest005\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test006 in just_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$/Week_05" />
@@ -100,13 +83,33 @@
       <pattern value="^\QTest006\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestForMax in for006_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
+      <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Week_06/mySort/for006_test.go" />
+      <pattern value="^\QTestForMax\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestForMax in for006_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmCHUNZHAO" />
+      <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Week_06/mySort/for006_test.go" />
+      <pattern value="^\QTestForMax\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestForMax in for006_test.go (1)" />
+        <item itemvalue="Go Test.TestForMax in for006_test.go" />
         <item itemvalue="Go Test.Test00001 in sort_test.go (1)" />
         <item itemvalue="Go Test.Test00001 in sort_test.go" />
         <item itemvalue="Go Test.Test006 in just_test.go" />
-        <item itemvalue="Go Test.Test005 in just_test.go" />
-        <item itemvalue="Go Test.Test003 in week3_test.go (2)" />
       </list>
     </recent_temporary>
   </component>
