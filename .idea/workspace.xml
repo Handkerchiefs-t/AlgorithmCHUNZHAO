@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16317b83-2055-4098-baa8-0ad0c0a60b55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_06/mySort/for006_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/mySort/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/mySort/sort_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\Users\ZERO\Desktop\算法班\homeWork\AlgorithmCHUNZHAO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestForMax in for006_test.go (1)">
+  <component name="RunManager" selected="Go Test.Test00001 in sort_test.go (3)">
     <configuration name="Test00001 in sort_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
@@ -61,7 +61,7 @@
       <pattern value="^\QTest00001\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test00001 in sort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test00001 in sort_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmCHUNZHAO" />
       <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
       <framework value="gotest" />
@@ -71,14 +71,14 @@
       <pattern value="^\QTest00001\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test006 in just_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test00001 in sort_test.go (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmCHUNZHAO" />
-      <working_directory value="$PROJECT_DIR$/Week_05" />
+      <working_directory value="$PROJECT_DIR$/Week_06/mySort" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Week_05/just_test.go" />
-      <pattern value="^\QTest006\E$" />
+      <filePath value="$PROJECT_DIR$/Week_06/mySort/sort_test.go" />
+      <pattern value="^\QTest00001\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestForMax in for006_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test00001 in sort_test.go (3)" />
+        <item itemvalue="Go Test.Test00001 in sort_test.go (2)" />
         <item itemvalue="Go Test.TestForMax in for006_test.go (1)" />
         <item itemvalue="Go Test.TestForMax in for006_test.go" />
         <item itemvalue="Go Test.Test00001 in sort_test.go (1)" />
-        <item itemvalue="Go Test.Test00001 in sort_test.go" />
-        <item itemvalue="Go Test.Test006 in just_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +120,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
